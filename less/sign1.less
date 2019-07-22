@@ -1,0 +1,279 @@
+/*主体start*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.baozhang{
+    width:75%;
+    margin: 0 auto;
+    font-size: 10px;
+    padding: 2px 30px;
+    background: #f5f5f5;
+    margin-top: 30px;
+    span{
+        color: red;
+    }
+    i{
+        font-size: 12px;
+    }
+}
+ul li{
+    list-style: none;
+}
+ /*父组件start*/
+ .article-fa{
+        width:280px;
+        
+        overflow: hidden;
+        .mi1{
+           
+           overflow: hidden;
+           margin-top: 0;
+           float: right;
+           font-size: 10px;
+           color: #9b9b9b;
+           width: 160px;
+           img{
+               float: right;
+           }
+           span{
+               text-indent: 10px;
+               display: inline-block;
+               width: 110px;
+               height: 27px;
+               line-height: 27px;
+               border:1px solid #b5b6a8;
+               float: left;
+               position: relative;
+              i{
+                position: absolute;
+                width: 10px;  
+                height: 10px;
+                border: #b5b6a8 solid 1px;
+                transform: rotateZ(45deg);
+                top:7px;
+                right: -7px;
+                border-bottom: none;
+                border-left: none;
+                background: white;
+                
+              }
+           }
+        }
+    
+     }  
+     /*父组件end*/
+    
+      /*子组件一start*/
+     .erweima{
+         div{
+             text-align: center;
+             &:nth-of-type(1){
+                   margin-top: 60px;
+                   font-size: 15px;
+                   font-weight: bolder;
+             }
+             &:nth-of-type(2){
+                 img{
+                  
+                   width: 150px;
+                   height: 150px;
+                   margin-top: 15px;
+                   
+                 }
+             }
+            &:nth-of-type(3){
+                display: flex;
+                margin:10px 0;
+          span{
+              color: #a89bb5;
+              font-size: 10px;
+              display: inline-block;
+              margin-left: 15px;
+              text-align: left;
+          }
+          img{
+              margin-left: 40px;
+              height: 26px;
+          }
+             }
+              &:nth-of-type(4){
+               font-size: 13px;
+               color: red;
+               margin: 30px 0;
+             }
+             
+         }
+     }
+      /*子组件一 end*/
+      /*子组件二start*/
+.md{
+    margin-top: 50px;
+    li{
+          width: 250px;
+          height: 45px;
+        &:nth-child(1){
+         
+          
+          line-height: 45px;
+          span{
+              float: right;
+              color: #d0c4c1;
+             font-size: 12px;
+             i{
+                 font-size: 10px;
+             }
+          }
+        }
+        &:nth-child(2){
+           position: relative;
+           input{
+               border: none;
+               border-radius: 10px;
+               height: 20px;
+               font-size: 8px;
+               width: 140px;
+               &:nth-child(2){
+               float: right;
+               background:#cccccc;
+           }
+            &:nth-child(1){
+               position: absolute;
+               left: 0;
+               top:0
+               background:#000000;
+             color: white;
+           }
+          }  
+        }
+         &:nth-child(3){
+             input{
+                 border: #f1f1f1 solid 1px;
+                  width: 250px;
+                height: 40px;
+                text-indent: 10px;
+             }
+             
+         }
+          &:nth-child(4){
+             input{
+                 border: #f1f1f1 solid 1px;
+                  width: 250px;
+                height: 40px;
+                text-indent: 10px;
+             }
+         }
+         &:nth-child(5){
+               font-size: 10px;
+               color:#c9d2d6 ;
+               span{
+                   color: red;
+                   display: inline-block;
+                   margin-left: 10px;
+               }
+           }  
+         &:nth-child(6){
+             display: flex;
+             overflow: hidden;
+             width: 300px;
+              height: 70px;
+           div{
+            width: 60px;
+            height: 60px;
+            position: relative;
+            border:1px solid #dbdbdb;
+            overflow: hidden;
+            margin-right: 5px;
+           
+            img{
+                width: 240px;
+                height: 240px;
+                position: absolute;
+                left:0;
+            }
+            &:nth-child(2){
+                img{
+                   left: -60px; 
+                }
+            }
+            &:nth-child(3){
+                img{
+                   left: -120px; 
+                }
+            }
+            &:nth-child(4){
+                img{
+                   left: -180px; 
+                }
+            }
+        }
+           }  
+           
+            &:nth-child(7){
+                margin-top: 10px;
+                input{
+                    background: #ff1901;
+                    color: white; 
+                    border: none;
+                     width: 260px;
+                    height: 45px;
+                }
+               
+            } 
+            &:nth-child(8){
+                color: #b9b9b9;
+                font-size: 8px;
+                margin-top: 10px;
+                i{
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    line-height: 15px;
+                    text-align:center;
+                    background: #b9b9b9;
+                    color: white;
+                    font-size: 5px;
+                    margin-right: 3px;
+                }
+                span{
+                    &:nth-of-type(1){
+                       display: inline-block;
+                        margin-left: 45px;
+                     }
+                      &:nth-of-type(2){
+                       color: red;
+                         
+                     }
+                }
+            }
+             &:nth-child(9){
+                 height: 60px;
+                 text-align: center;
+                 i{
+                    display: inline-block; 
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    background: #11cd6e;
+                    border-radius: 50%;
+                    text-align: center;
+                    color: white;
+                    margin:0 20px;
+                    font-size: 20px;
+                    &:nth-child(2){
+                     background: #ec2f3a;
+                   
+                 }
+                  &:nth-child(3){
+                     background: #ff7a18;
+                     
+                 }
+                 }
+                 
+             }
+    }
+
+}
+/*子组件二end*/
+/*主体end*/

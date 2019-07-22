@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+html {
+  height: 1300px;
+}
+li {
+  list-style: none;
+}
+.hd .hd-wrap {
+  position: relative;
+}
+.hd .hd-wrap .logo {
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 168px;
+  height: 60px;
+}
+.hd .hd-wrap .nav {
+  margin-top: -50px;
+  margin-left: 500px;
+}
+.hd .hd-wrap .nav li {
+  float: left;
+  padding: 0px 15px;
+  text-align: center;
+  line-height: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.hd .hd-wrap .nav li a {
+  background: url(../img/nav-line.png) no-repeat left center;
+  display: block;
+  padding: 0 15px;
+}
+.hd .hd-wrap .nav li span {
+  display: block;
+  color: black;
+}
+.banner-box .banner-top {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.warp {
+  margin: 15px 0 auto;
+  height: 400px;
+  position: relative;
+}
+.warp .section {
+  float: left;
+}
+.warp .yohobuy {
+  position: absolute;
+  margin: 0 15px 0 0;
+  width: 290px;
+  left: 250px;
+}
+.warp .yohobuy h2 {
+  font-size: 18px;
+  float: left;
+  height: 38px;
+  width: 100%;
+  background: #cccccc;
+  line-height: 35px;
+  text-align: center;
+}
+.warp .yohobuy h2 a {
+  color: white;
+}
+.warp .yohobuy .yohobuy-logo img {
+  width: 144px;
+  height: 132px;
+}
+.warp .yohobuy .yohobuy-content img {
+  width: 144px;
+  height: 132px;
+  position: absolute;
+  top: 38px;
+  left: 147px;
+}
+.warp .yohobuy .yohobuy-sale img {
+  width: 288px;
+}
+.warp .yohoboys {
+  position: absolute;
+  margin: 0 15px 0 0;
+  width: 290px;
+  left: 590px;
+}
+.warp .yohoboys h2 {
+  font-size: 18px;
+  float: left;
+  height: 38px;
+  width: 100%;
+  background: #cccccc;
+  line-height: 35px;
+  text-align: center;
+}
+.warp .yohoboys h2 a {
+  color: white;
+}
+.warp .yohoboys .yohoboys-pic img {
+  width: 100%;
+  height: 316px;
+}
+.warp .yohogirls {
+  position: absolute;
+  margin: 0 15px 0 0;
+  width: 290px;
+  left: 935px;
+}
+.warp .yohogirls h2 {
+  font-size: 18px;
+  float: left;
+  height: 38px;
+  width: 100%;
+  background: #cccccc;
+  line-height: 35px;
+  text-align: center;
+}
+.warp .yohogirls h2 a {
+  color: white;
+}
+.warp .yohogirls .yohogirls-pic img {
+  width: 100%;
+  height: 316px;
+}
+.download-box h2 {
+  height: 60px;
+  font-size: 16px;
+  text-align: center;
+}
+.download-box h2 img {
+  width: 5px;
+  height: 5px;
+  position: relative;
+  top: -8%;
+}
+.download-box h2 span {
+  line-height: 60px;
+  margin: 0 18px;
+}
+.download-box .inner-wrap {
+  text-align: center;
+}
+.ft .ft-nav {
+  width: 500px;
+  margin: 0px auto;
+}
+.ft .ft-nav li {
+  float: left;
+  line-height: 50px;
+  padding: 0 30px;
+}
+.ft .ft-nav li a {
+  color: black;
+  font-size: 16px;
+}
+.ft .ft-bd {
+  position: relative;
+  padding: 16px 0;
+}
+.ft .ft-bd .ft-line {
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+.ft .ft-bd p {
+  color: #c0c0c0;
+  line-height: 18px;
+  text-align: center;
+  position: absolute;
+  top: 95px;
+  left: 600px;
+  font-size: 12px;
+}
+.ft .ft-bd .p1 {
+  position: absolute;
+  left: 530px;
+  top: 110px;
+}
+.ft .ft-bd .p1 a {
+  color: #c0c0c0 ;
+}

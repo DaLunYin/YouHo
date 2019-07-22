@@ -1,0 +1,766 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+html,
+body {
+  height: 100%;
+}
+.sizing {
+  box-sizing: border-box;
+}
+.center-cont {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clearfix::after {
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+}
+.top-wrapper {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  background-color: #f4f4f4;
+}
+.top-wrapper li {
+  float: left;
+  padding-right: 10px;
+  color: #949494;
+}
+.top-wrapper a {
+  color: #949494;
+}
+.top-wrapper i {
+  padding: 0 5px;
+  vertical-align: center;
+}
+.top-wrapper .tw-left-t {
+  position: relative;
+  color: #949494;
+  float: left;
+  padding: 0 5px;
+}
+.top-wrapper .tw-left-i {
+  position: relative;
+  margin-left: 15px;
+  color: #d71d32;
+  float: left;
+  padding: 0 5px;
+}
+.top-wrapper .tw-left-i a {
+  color: #d71d32;
+}
+.top-wrapper .tw-right {
+  float: right;
+}
+.top-wrapper .tw-right li:first-child {
+  color: #000;
+}
+.top-wrapper .tw-right li:first-child a {
+  padding: 0 5px;
+}
+.top-wrapper .tw-right .tag-seprate {
+  width: 0;
+  margin: 10px 10px 0 0;
+  height: 14px;
+  float: left;
+  border-left: 1px solid #dcdcdc;
+}
+.top-wrapper .wechat-c {
+  color: #86bf4b;
+}
+.top-wrapper .mobile-c {
+  color: #d0021b;
+}
+.head-wrapper {
+  width: 100%;
+}
+.head-wrapper .main-logo {
+  background: url("../images/icon/logo-en.png") no-repeat 50%;
+  width: 182px;
+  height: 53px;
+  left: 43%;
+  margin-top: 22px;
+  position: absolute;
+}
+.head-wrapper .main-nav-list {
+  vertical-align: top;
+  margin-top: 45px;
+  float: left;
+}
+.head-wrapper .main-nav-list li {
+  float: left;
+  padding: 8px 22px 5px;
+  text-align: center;
+}
+.head-wrapper .main-nav-list li a {
+  color: #000;
+  font-size: 16px;
+}
+.head-wrapper .main-nav-list li .name-en a {
+  color: #8e8e8e;
+  font-size: 10px;
+}
+.head-wrapper .main-nav-list .curr {
+  background-color: #3a3a3a;
+}
+.head-wrapper .main-nav-list .curr a {
+  color: #fff;
+}
+.head-wrapper .func-area {
+  float: right;
+  width: 378px;
+  padding-right: 18px;
+  margin-top: 40px;
+}
+.head-wrapper .func-area .search-inp {
+  width: 320px;
+  height: 28px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.head-wrapper .func-area .search-inp form {
+  background-color: #3a3a3a;
+  overflow: hidden;
+}
+.head-wrapper .func-area .search-inp form .search-key {
+  width: 240px;
+  height: 28px;
+  border: 1px solid #3a3a3a;
+  background-color: #fff;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 10px;
+}
+.head-wrapper .func-area .search-inp form .search-btn {
+  background: url("../images/icon/search.png") no-repeat 50%;
+  width: 78px;
+  height: 28px;
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+.head-wrapper .func-area .search-inp .search-hot {
+  width: 320px;
+  height: 16px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: inline-block;
+}
+.head-wrapper .func-area .search-inp .search-hot li {
+  float: left;
+  margin-right: 18px;
+}
+.head-wrapper .func-area .search-inp .search-hot li a {
+  color: #8e8e8e;
+}
+.head-wrapper .func-area .go-cart {
+  width: 30px;
+  height: 30px;
+  float: right;
+  cursor: pointer;
+  position: relative;
+}
+.head-wrapper .func-area .go-cart img {
+  width: 100%;
+}
+.nav-wrapper {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #3a3a3a;
+}
+.nav-wrapper .nav-list {
+  width: 1150px;
+  height: 40px;
+}
+.nav-wrapper .nav-list li {
+  float: left;
+  line-height: 40px;
+  padding: 0 46px 0 10px;
+  box-sizing: border-box;
+  margin-right: 36px;
+}
+.nav-wrapper .nav-list li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  display: inline-block;
+  position: relative;
+}
+.main-banner {
+  height: 510px;
+}
+.main-banner .banner-box {
+  height: 510px;
+  background-color: pink;
+}
+.main-banner .banner-box p {
+  line-height: 510px;
+  text-align: center;
+}
+.all {
+  width: 100%;
+}
+.bla {
+  width: 100%;
+  background: #000;
+  height: 50px;
+  line-height: 50px;
+}
+.bla .blaleft img {
+  width: 50px;
+  height: 50px;
+  padding-left: 390px;
+}
+.bla .blaright {
+  margin-left: 73%;
+  margin-top: -63px;
+}
+.bla .blaright a:nth-of-type(1) {
+  padding: 0 10px;
+}
+.bla .blaright a {
+  float: left;
+  padding: 0 5px;
+  border: 1px solid #eee;
+  margin-left: 1%;
+  height: 35px;
+  line-height: 35px;
+  color: #eee;
+}
+.bla .blaright a img {
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+}
+.detail {
+  width: 80%;
+}
+.detail p {
+  margin-top: 1%;
+  margin-left: 20%;
+}
+.detail p a {
+  color: #9a9a9a;
+}
+.detail .cloimg {
+  margin-left: 20%;
+  margin-top: 1%;
+}
+.detail .cloimg p {
+  margin-top: 20%;
+  margin-left: 0%;
+}
+.detail .cloimg p img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+.detail .leftimg span {
+  background-color: #78dc7d;
+  padding: 5px;
+  color: #eee;
+  position: absolute;
+  margin-left: -420px;
+}
+.detail .rightimg {
+  margin-left: 450px;
+  margin-top: -573px;
+}
+.detail .rightimg li {
+  margin-top: 1%;
+}
+.rightwrite {
+  width: 500px;
+  margin-left: 860px;
+  margin-top: -470px;
+}
+.rightwrite .righttitle {
+  border-bottom: 1px solid #eaeceb;
+  padding-bottom: 20px;
+}
+.rightwrite .righttitle h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+.rightwrite .middletitle p {
+  font-size: 13px;
+  margin-left: 0;
+  margin-top: 20px;
+}
+.rightwrite .middletitle p strong {
+  font-size: 22px;
+  margin-right: 5px;
+}
+.rightwrite .middletitle p span {
+  color: #707070;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.rightwrite .middletitle p a {
+  color: #d0021b;
+}
+.rightwrite .middletitle .ticket a {
+  color: white;
+  background-color: #d0021b;
+  width: 110px;
+  margin-left: 2px;
+}
+.rightwrite .sale {
+  margin-top: 5px;
+}
+.rightwrite .sale li:nth-of-type(1) {
+  margin-top: -5px;
+}
+.rightwrite .sale li {
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.rightwrite .sale li span:nth-of-type(1) {
+  background-color: #b0b0b0;
+  padding: 5px;
+  color: #eee;
+  margin-left: 10px;
+}
+.rightwrite .downmiddletitle .ccolor li {
+  width: 75px;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #000;
+  margin-left: 40px;
+  margin-top: -25px;
+}
+.rightwrite .downmiddletitle .ccolor li strong {
+  vertical-align: top;
+  margin-left: 3%;
+}
+.rightwrite .downmiddletitle .size {
+  margin-top: 2%;
+}
+.rightwrite .downmiddletitle .size ul {
+  margin-left: 9%;
+  margin-top: -3.2%;
+}
+.rightwrite .downmiddletitle .size ul li:nth-of-type(1) {
+  margin-left: 0%;
+}
+.rightwrite .downmiddletitle .size ul li {
+  float: left;
+  text-align: center;
+  width: 8%;
+  font-size: 12px;
+  margin-left: 2%;
+  margin-right: 1%;
+  border: 1px solid #000;
+}
+.rightwrite .downmiddletitle .num {
+  border-bottom: 1px solid #eaeceb;
+  margin-top: 7%;
+  margin-left: 0%;
+  padding-bottom: 3%;
+}
+.rightwrite .downmiddletitle .num span {
+  padding: 2px 17px;
+  vertical-align: middle;
+  border: 1px solid #000;
+  margin-right: 1%;
+}
+.rightwrite .downmiddletitle .num button:nth-of-type(1) {
+  margin-left: 2%;
+}
+.rightwrite .downmiddletitle .num button {
+  width: 25px;
+  height: 25px;
+  line-height: 23px;
+  border: 1px solid #b0b0b0;
+  background-color: #e0e0e0;
+}
+.rightwrite .downtitle .collect {
+  margin-top: 4%;
+}
+.rightwrite .downtitle .collect .shop {
+  width: 180px;
+  height: 46px;
+  line-height: 46px;
+  background-color: #d0021b;
+  font-size: 16px;
+  text-align: center;
+}
+.rightwrite .downtitle .collect .shop a {
+  color: #eee;
+}
+.rightwrite .downtitle .collect .shop a img {
+  vertical-align: middle;
+}
+.rightwrite .downtitle .collect .shoucang {
+  margin-left: 200px;
+  margin-top: -46px;
+  width: 130px;
+  height: 44px;
+  line-height: 46px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  text-align: center;
+}
+.rightwrite .downtitle .collect .shoucang a img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.rightwrite .downtitle .collect a img {
+  width: 35px;
+  height: 35px;
+}
+.rightwrite .downtitle .service {
+  margin-left: -11.2%;
+  margin-top: 3%;
+}
+.rightwrite .downtitle .service p a {
+  color: #d0021b;
+  margin-left: 2%;
+}
+.rightwrite .downtitle .service p img {
+  width: 15px;
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 2%;
+}
+.rightwrite .downtitle .clothescode {
+  margin-top: 25px;
+  width: 180px;
+  height: 82px;
+  border: 1px solid #e6e6e6;
+}
+.rightwrite .downtitle .clothescode li a img {
+  width: 82px;
+  height: 82px;
+  vertical-align: middle;
+}
+.rightwrite .downtitle .clothescode .codead {
+  margin-left: 90px;
+  margin-top: -60px;
+  font-size: 12px;
+}
+.itemmessage {
+  width: 1100px;
+  border: 1px solid #e0e0e0;
+  margin-top: 4%;
+  margin-left: 20%;
+}
+.itemmessage .message {
+  width: 70%;
+  text-align: center;
+}
+.itemmessage .message h2 {
+  font-size: 16px!important;
+  width: 120px;
+  height: 29px;
+  line-height: 29px;
+  margin-left: 57%;
+  margin-top: 2%;
+  border: 1px solid #444444;
+}
+.itemmessage .message ul {
+  margin-left: 15%;
+  margin-top: 3%;
+}
+.itemmessage .message ul li {
+  text-align: left;
+  margin-top: 1%;
+}
+.itemmessage .message ul li span {
+  margin-left: 9%;
+}
+.itemmessage .itemdetail ul {
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  width: 50%;
+  margin: 3% auto;
+  padding: 1%;
+}
+.itemmessage .itemdetail ul li {
+  width: 45%;
+  display: inline-block;
+  margin-top: 2%;
+}
+.itemmessage .itemdetail ul li span {
+  border: 1px solid black;
+  padding: 1px 7px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.itemmessage .itemdetail ul li .active {
+  background-color: #000;
+}
+.itemmessage .caizhi h2 {
+  font-size: 16px!important;
+  width: 120px;
+  height: 29px;
+  line-height: 29px;
+  margin-left: 40%;
+  border: 1px solid #444444;
+  text-align: center;
+}
+.itemmessage .caizhi hr {
+  position: absolute;
+  width: 17%;
+  margin-top: -0.7%;
+  margin-left: 5%;
+}
+.itemmessage .caizhi hr:nth-of-type(1) {
+  margin-left: 32%;
+}
+.itemmessage .caizhi .mian {
+  margin-top: 3%;
+}
+.itemmessage .caizhi .mian .mianleft {
+  margin-left: 8.2%;
+}
+.itemmessage .caizhi .mian .mianleft img {
+  width: 120px;
+  height: 40px;
+}
+.itemmessage .caizhi .mian .mianleft li {
+  margin-left: -67%;
+  margin-top: 0%;
+  text-align: center;
+}
+.itemmessage .caizhi .mian .mianleft .zi {
+  margin-top: -4%;
+}
+.itemmessage .caizhi .mian .mianright {
+  border-left: 1px solid #eaeceb;
+  width: 40%;
+  line-height: 25px;
+  margin-top: -5%;
+  margin-left: 28%;
+  padding-left: 5%;
+}
+.itemmessage .caizhi .mian p {
+  margin-left: -10%;
+  margin-top: 2%;
+  text-align: center;
+  color: #d0021b;
+}
+.itemmessage .caizhi .mian p img {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+.itemmessage .caizhi .size {
+  margin-top: 3%;
+}
+.itemmessage .caizhi .size .biao p {
+  color: #a69999;
+  text-align: center;
+  margin-left: 2 5%;
+}
+.itemmessage .caizhi .size .biao table {
+  width: 90%;
+  margin: 2% auto;
+  text-align: center;
+}
+.itemmessage .caizhi .size .biao table tr {
+  border: 1px solid #f9f9f9;
+}
+.itemmessage .caizhi .size .biao table tr:nth-of-type(1) {
+  background-color: #f5f5f5;
+}
+.itemmessage .caizhi .size .cangkao {
+  margin-top: 2%;
+  margin-left: 20%;
+}
+.itemmessage .caizhi .clodetail img {
+  width: 750px;
+  height: 800px;
+  margin: 1%  12%;
+}
+.itemmessage .caizhi .comment .pinglun {
+  margin: 1% 8%;
+}
+.itemmessage .caizhi .comment .pinglun ul {
+  width: 88%;
+  border-bottom: 1px solid #000;
+}
+.itemmessage .caizhi .comment .pinglun li {
+  display: inline-block;
+  margin-left: 1%;
+}
+.itemmessage .caizhi .comment .commiddle {
+  margin-top: 3%;
+  margin-left: -10%;
+  text-align: center;
+}
+.itemmessage .caizhi .comment .commiddle img {
+  width: 130px;
+  height: 160px;
+}
+.itemmessage .caizhi .zixun p {
+  margin-top: 2%;
+  margin-left: 10%;
+  line-height: 30px;
+  width: 60%;
+}
+.itemmessage .caizhi .zixun p:nth-of-type(1) span {
+  color: #eee;
+  padding: 4px 5px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-right: 1%;
+}
+.itemmessage .caizhi .zixun p:nth-of-type(2) {
+  color: #999999;
+}
+.itemmessage .caizhi .zixun p:nth-of-type(2) span {
+  color: #eee;
+  padding: 4px 5px;
+  background-color: #999999;
+  border-radius: 50%;
+  margin-right: 1%;
+}
+.itemmessage .caizhi .zixun .want {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+.itemmessage .caizhi .zixun .want li img {
+  width: 22px;
+  height: 20px;
+  vertical-align: middle;
+}
+.itemmessage .caizhi .zixun .want li a {
+  color: red;
+}
+.itemmessage .caizhi .zixun1 h2 {
+  background-color: #444444!important;
+  color: #eee;
+}
+.itemmessage .caizhi .zixun1 .zixunfrom {
+  margin-left: 8.3%;
+}
+.itemmessage .caizhi .zixun1 .zixunfrom textarea {
+  width: 80%;
+  height: 300px;
+}
+.itemmessage .caizhi .zixun1 .zixunfrom button {
+  border: none;
+  width: 80.2%;
+  height: 35px;
+  line-height: 35px;
+  margin-top: -0.3%;
+}
+.itemmessage .caizhi .explain {
+  width: 80%;
+  margin-left: 0px;
+  margin-top: 2%;
+}
+.itemmessage .caizhi .explain h2 {
+  margin-left: 450px;
+}
+.itemmessage .caizhi .explain .p1 {
+  margin-left: 20px;
+  margin-top: 2%;
+}
+.itemmessage .caizhi .explain .p1 p:nth-of-type(2) {
+  color: #999999;
+  width: 80%;
+}
+.itemmessage .caizhi .explain .p1 p:nth-of-type(3) {
+  color: #999;
+  margin-top: 2%;
+}
+.shouhou {
+  width: 1100px;
+  margin-top: 2%;
+  margin-left: 20%;
+  border: 1px solid#e0e0e0;
+}
+.shouhou li {
+  background-color: #f5f5f5;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+}
+.shouhou li img {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+.shouhou .three ul li {
+  background-color: #ffffff;
+  height: 70px;
+  line-height: 70px;
+}
+.shouhou .three ul li img {
+  width: 517px;
+  height: 25px;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  background: black;
+  color: white;
+  padding: 10px 80px;
+}
+.footer .footer-top {
+  height: 40px;
+  line-height: 40px;
+}
+.footer .footer-top ul li {
+  float: left;
+  font-size: 10px;
+  margin-right: 30px;
+}
+.footer .footer-top ul li span {
+  color: red;
+}
+.footer table {
+  padding-top: 10px;
+  margin-left: 0px;
+  width: 90%;
+  height: 130px;
+  border-top: #DDDDDD solid 1px;
+}
+.footer table td {
+  display: inline-block;
+  font-size: 10px;
+  width: 100px;
+  margin-right: 65px;
+}
+.footer a {
+  color: #666;
+  font-size: 6px;
+}
+.footer span {
+  color: #666;
+  font-size: 6px;
+}
+.footer .footer-bottom {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+.footer .footer-bottom .foot-nav {
+  width: 900px;
+  margin-left: 45px;
+}
+.footer .footer-bottom .foot-nav a {
+  margin: 0 8px;
+}
+.footer .footer-bottom img {
+  width: 70px;
+  height: 30px;
+}

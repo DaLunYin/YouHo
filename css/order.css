@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  height: 30px;
+  background: #f4f4f4;
+}
+header nav {
+  line-height: 30px;
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+}
+header nav .nav_left {
+  font-size: 12px;
+}
+header nav .nav_left a {
+  color: #000;
+}
+header nav .nav_ti {
+  font-size: 12px;
+  margin-left: 40px;
+}
+header nav .nav_ti a {
+  color: #dc1d32;
+}
+header nav .nav_right {
+  font-size: 12px;
+  margin-left: 170px;
+}
+header nav .nav_right ul {
+  display: flex;
+}
+header nav .nav_right ul li {
+  margin-left: 10px;
+}
+header nav .nav_right ul li span:first-child {
+  margin-right: 7px;
+  color: #dcdcdc;
+}
+header nav .nav_right ul li a {
+  color: #8e8e8e;
+}
+header nav .nav_right ul li:first-child span {
+  color: #000;
+}
+header nav .nav_right ul li:first-child a {
+  color: #000;
+}
+header nav .nav_right ul li:nth-child(7) a {
+  color: #86bf4a;
+}
+header nav .nav_right ul li:last-child a {
+  color: #d3162d;
+}
+article {
+  width: 100%;
+}
+article #article_nav {
+  width: 1100px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+article #article_nav .article_nav_left {
+  height: 100px;
+}
+article #article_nav .article_nav_left ul {
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+article #article_nav .article_nav_left ul li {
+  width: 80px;
+  text-align: center;
+  font-size: 15px;
+}
+article #article_nav .article_nav_left ul li span {
+  font-size: 13px;
+  color: #aa8e9c;
+}
+article #article_nav .article_nav_left ul li:first-child {
+  background: #000;
+  color: #fff;
+}
+article #article_nav .article_nav_left ul li:first-child span {
+  color: #fff;
+}
+article #article_nav .article_nav_logo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+article #article_nav .article_nav_right {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+article #article_nav .article_nav_right form {
+  display: flex;
+}
+article #article_nav .article_nav_right form .article_nav_form {
+  width: 280px;
+  height: 25px;
+  border: 1px solid #666;
+  display: flex;
+}
+article #article_nav .article_nav_right form .article_nav_form input {
+  line-height: 25px;
+  width: 200px;
+  border: none;
+  outline: none;
+}
+article #article_nav .article_nav_right form .article_nav_form button {
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 80px;
+  background: #000;
+}
+article #article_nav .article_nav_right .form_bottom span {
+  font-size: 12px;
+  color: #bcb4b4;
+  margin-right: 10px;
+}
+article #article_hs {
+  width: 100%;
+  height: 50px;
+  background: #000;
+}
+article #article_hs ul {
+  width: 1100px;
+  line-height: 50px;
+  margin: 0 auto;
+  display: flex;
+}
+article #article_hs ul li {
+  margin-right: 70px;
+}
+article #article_hs ul li a {
+  color: #fff;
+  font-size: 14px;
+}
+article section #section_box {
+  height: 100%;
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+article section #section_box p {
+  float: left;
+  height: 50px;
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+article section #section_box p a:last-child {
+  color: #000;
+  font-weight: bold;
+}
+article section #section_box p span:first-child {
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #000;
+  margin-right: 10px;
+}
+article section #section_box .section_left {
+  float: left;
+  width: 20%;
+  border: 1px solid #dedede;
+}
+article section #section_box .section_left .section_mine h2 {
+  line-height: 40px;
+  background: #e3e3e3;
+  font-size: 17px;
+  padding-left: 10px;
+}
+article section #section_box .section_left .section_mine h2 span {
+  font-size: 12px;
+}
+article section #section_box .section_left .section_mine div {
+  height: 150px;
+  width: 100%;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+article section #section_box .section_left .section_mine div img {
+  height: 130px;
+}
+article section #section_box .section_left .trading h2 {
+  height: 40px;
+  background: #e3e3e3;
+  font-size: 17px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  color: #636363;
+}
+article section #section_box .section_left .trading h2 span {
+  display: block;
+  height: 15px;
+  width: 15px ;
+  border-radius: 50% ;
+  background: #000;
+  margin-right: 10px;
+}
+article section #section_box .section_left .trading ul li {
+  line-height: 40px;
+  border-bottom: 1px solid #e2e2e2 ;
+  padding-left: 35px;
+  color: #937c9c;
+  font-size: 12px;
+}
+article section #section_box .section_left .trading ul li:first-child {
+  color: #fff;
+  background: #636363;
+}
+article section #section_box .section_left .service h2 {
+  line-height: 40px;
+  background: #e3e3e3;
+  font-size: 17px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  color: #636363;
+}
+article section #section_box .section_left .service h2 span {
+  display: block;
+  height: 15px;
+  width: 15px ;
+  border-radius: 50% ;
+  background: #000;
+  margin-right: 10px;
+}
+article section #section_box .section_left .service ul li {
+  line-height: 40px;
+  border-bottom: 1px solid #e2e2e2 ;
+  padding-left: 35px;
+  color: #937c9c;
+  font-size: 12px;
+}
+article section #section_box .section_left .information h2 {
+  line-height: 40px;
+  background: #e3e3e3;
+  font-size: 17px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  color: #636363;
+}
+article section #section_box .section_left .information h2 span {
+  display: block;
+  height: 15px;
+  width: 15px ;
+  border-radius: 50% ;
+  background: #000;
+  margin-right: 10px;
+}
+article section #section_box .section_left .information ul li {
+  line-height: 40px;
+  border-bottom: 1px solid #e2e2e2 ;
+  padding-left: 35px;
+  color: #937c9c;
+  font-size: 12px;
+}
+article section #section_box .section_right {
+  width: 78%;
+  height: 650px;
+  border: 1px solid #dedede;
+  float: right;
+}
+article section #section_box .section_right .section_right_top {
+  line-height: 40px;
+  background: #e3e3e3;
+  display: flex;
+  padding-left: 10px;
+}
+article section #section_box .section_right .section_right_top span {
+  margin-left: 15px;
+}
+article section #section_box .section_right .section_right_top span:nth-child(2) {
+  font-size: 10px;
+}
+article section #section_box .section_right .section_right_top span:nth-child(3) {
+  font-size: 13px;
+  font-weight: bold;
+}
+article section #section_box .section_right .section_right_secs {
+  margin-top: 10px;
+  line-height: 30px;
+  margin: 10 auto;
+}
+article section #section_box .section_right .section_right_secs .hint {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 12px;
+  background: #faf6da;
+  padding-left: 10px;
+}
+article section #section_box .section_right .section_right_secs .hint span {
+  color: red;
+}
+#footes {
+  height: 380px;
+  width: 100%;
+  background: #000;
+  margin-top: 20px;
+}
+#footes .footer_box {
+  height: 400px;
+  width: 83%;
+  margin: 0 auto;
+}
+#footes .footer_box .footer_button {
+  line-height: 50px;
+  display: flex;
+  border-bottom: 1px solid #262626;
+}
+#footes .footer_box .footer_button div {
+  margin-right: 50px;
+}
+#footes .footer_box .footer_button div span {
+  margin-right: 5px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
+}
+#footes .footer_box .footer_button span:nth-child(2) {
+  color: red;
+}
+#footes .footer_link {
+  height: 180px;
+}
+#footes .footer_link ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#footes .footer_link ul li p {
+  margin-top: 10px;
+}
+#footes .footer_link ul li p a {
+  color: #666666;
+  font-size: 12px;
+}
+#footes .footer_link ul li p span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+#footes .footer_bei_top {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+#footes .footer_bei_top div:first-child {
+  width: 30%;
+}
+#footes .footer_bei_top div:last-child {
+  width: 70%;
+}
+#footes .footer_bei_top div:last-child a {
+  font-size: 12px;
+  color: #5f6266;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#footes .footer_bei_top div:last-child span {
+  color: #5f6266;
+  font-size: 12px;
+}
+#footes .footer_bei_bottom {
+  line-height: 50px;
+}
+#footes .footer_bei_bottom p {
+  color: #5f6266;
+  font-size: 12px;
+  text-align: center;
+}

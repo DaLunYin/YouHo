@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+}
+/*头部start*/
+.header {
+  width: 100%;
+  height: 60px;
+  border-bottom: 2px solid black;
+}
+.header .father {
+  width: 75%;
+  margin: 0 auto;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+.header .father .header-nav {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  font-size: 10px;
+}
+.header .father .header-nav li {
+  padding: 5px 7px;
+}
+.header .father .header-nav .myli:hover .my {
+  display: block;
+}
+.header .father .header-nav .myli:hover {
+  background: #eaeceb;
+}
+.header .father .header-nav .myli {
+  position: relative;
+  width: 58px;
+}
+.header .father .header-nav .myli i {
+  font-size: 15px;
+}
+.header .father .header-nav .myli .my {
+  display: none;
+  position: absolute;
+  top: 26px;
+  left: 0;
+  height: 50px;
+  z-index: 1;
+  background: #eaeceb;
+  width: 70px;
+}
+.header .father .header-nav .myli .my li {
+  border-top: #dddddd solid 1px;
+}
+.header .father img {
+  width: 160px;
+}
+/*头部end*/
+/*主体start*/
+.section {
+  width: 100%;
+  height: 700px;
+  display: flex;
+}
+.section aside {
+  width: 50%;
+  height: 450px;
+  padding: 100px 0;
+}
+.section aside .aside-bigbox {
+  height: 400px;
+  border-right: #dfdfdf solid 1px;
+}
+.section aside .aside-bigbox img {
+  margin: 100px 250px;
+}
+.section article {
+  padding-left: 50px;
+  width: 50%;
+  height: 550px;
+  margin-top: 100px;
+  border-left: none;
+}
+.section article .article-ul > li {
+  margin-bottom: 20px;
+}
+.section article .article-ul > li:nth-of-type(2) {
+  border: #dbdbdb solid 1px;
+  width: 250px;
+  height: 45px;
+  line-height: 45px;
+}
+.section article .article-ul > li:nth-of-type(2) span {
+  color: #dbdbdb;
+  display: inline-block;
+  width: 50px;
+  height: 35px;
+  line-height: 35px;
+  border-right: #dbdbdb solid 1px;
+  text-align: center;
+}
+.section article .article-ul > li:nth-of-type(2) input {
+  height: 35px;
+  border: none;
+  text-indent: 10px;
+}
+.section article .article-ul > li:nth-of-type(3) span {
+  color: #b0b0b0;
+  font-size: 10px;
+}
+.section article .article-ul > li:nth-of-type(3) a {
+  color: red;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.section article .article-ul > li:nth-of-type(4) input {
+  height: 45px;
+  border: #dbdbdb solid 1px;
+  text-indent: 10px;
+}
+.section article .article-ul > li:nth-of-type(4) input:nth-of-type(2) {
+  border: none;
+  background: red;
+  color: white;
+  width: 120px;
+}
+.section article .article-ul > li:nth-of-type(5) div {
+  position: relative;
+}
+.section article .article-ul > li:nth-of-type(5) div span {
+  background: #e8e8e8;
+  padding: 0 8px;
+  position: absolute;
+  display: inline-block;
+  top: 3px;
+  font-size: 8px;
+  left: 280px;
+  color: #b9b9b9;
+}
+.section article .article-ul > li:nth-of-type(5) div span:nth-of-type(2) {
+  left: 240px;
+}
+.section article .article-ul > li:nth-of-type(5) div span:nth-of-type(3) {
+  left: 200px;
+}
+.section article .article-ul > li:nth-of-type(5) input {
+  border: #dbdbdb solid 1px;
+  height: 45px;
+  text-indent: 10px;
+  width: 300px;
+}
+.section article .article-ul > li:nth-of-type(6) input {
+  height: 45px;
+  text-indent: 10px;
+}
+.section article .article-ul > li:nth-of-type(7) {
+  font-size: 10px;
+  color: #dbdbdb;
+}
+.section article .article-ul > li:nth-of-type(7) a {
+  color: red;
+  text-decoration: underline;
+  display: inline-block;
+  margin: 5px 0;
+  margin-right: 10px;
+}
+.section article .article-ul > li:nth-of-type(8) {
+  height: 45px;
+  position: relative;
+}
+.section article .article-ul > li:nth-of-type(8) input {
+  width: 300px;
+  height: 45px;
+  background: #555555;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+.section article .article-ul > li:nth-of-type(8) i {
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  line-height: 43px;
+  border: #dbdbdb solid 1px;
+  position: absolute;
+  top: 0;
+  left: 320px;
+  text-align: center;
+  font-size: 35px;
+  color: #585858;
+}
+.section article .article-ul > li:nth-of-type(9) {
+  color: #dbdbdb;
+  font-size: 10px;
+}
+.section article .article-ul > li:nth-of-type(9) a {
+  color: red;
+  text-decoration: underline;
+}
+.section article select {
+  border: #dbdbdb solid 1px;
+  color: #9a9a9a;
+  width: 150px;
+  height: 30px;
+}
+.section .imgul {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.section .imgul li {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  border: 1px solid #dbdbdb;
+  overflow: hidden;
+}
+.section .imgul li img {
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 0;
+}
+.section .imgul li:nth-child(2) img {
+  left: -60px;
+}
+.section .imgul li:nth-child(3) img {
+  left: -120px;
+}
+.section .imgul li:nth-child(4) img {
+  left: -180px;
+}
+/*主体end*/
+/*尾部start*/
+footer {
+  width: 100%;
+  height: 300px;
+  background: black;
+  color: white;
+  padding: 10px 80px;
+}
+footer .footer-top {
+  height: 40px;
+  line-height: 40px;
+}
+footer .footer-top ul li {
+  float: left;
+  font-size: 10px;
+  margin-right: 30px;
+}
+footer .footer-top ul li span {
+  color: red;
+}
+footer table {
+  padding-top: 10px;
+  margin-left: 0px;
+  width: 90%;
+  height: 130px;
+  border-top: #DDDDDD solid 1px;
+}
+footer table td {
+  display: inline-block;
+  font-size: 10px;
+  width: 100px;
+  margin-right: 65px;
+}
+footer a {
+  color: #454445;
+  font-size: 6px;
+}
+footer span {
+  color: #454445;
+  font-size: 6px;
+}
+footer .footer-bottom {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+footer .footer-bottom .footnav {
+  width: 900px;
+  margin-left: 45px;
+}
+footer .footer-bottom .footnav a {
+  margin: 0 8px;
+}
+footer .footer-bottom img {
+  width: 70px;
+  height: 30px;
+}
+i {
+  font-size: 25px;
+  display: inline-block;
+}
+.footer-di{
+	text-align: center;
+}
+/*尾部end*/
+/*返回顶部start*/
+#know,
+.icon-angle-up {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  background: black;
+  color: white;
+  font-size: 40px;
+  opacity: 0.5;
+}
+#know {
+  bottom: 110px;
+}
+/*返回顶部end*/
